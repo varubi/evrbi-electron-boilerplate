@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: #222;
+    background: #EEE;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+#app-titlebar {
+    display: flex;
+    flex: 0 0 auto;
+    height: 30px;
+}
+
+#app-content {
+    flex: 1 1 auto;
+}
+
+#app-titlebar--title {
+    flex: 1 1 auto;
+}
+
+#app-titlebar--buttons {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+#app-titlebar--buttons .app-btn {
+    color: #DDD;
+    background: #222;
+    border: none;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    box-shadow: 4px 4px 3px -1px rgba(0, 0, 0, 0.07);
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+#app-titlebar--buttons .app-btn:focus {
+    outline: none;
+}
+
+#app-titlebar--buttons .app-btn:hover {
+    background: #F2AE72;
+}

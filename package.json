@@ -1,0 +1,12 @@
+{
+  "name": "evrbi-electron-boilerplate",
+  "productName": "e.vrbi's Electron Boilerplate",
+  "version": "0.1.1",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "latest"
+  }
+}
